@@ -1,0 +1,415 @@
+	*{
+				margin: 0px auto;
+				padding: 0px;
+			}
+			body,html{
+				width: 100%;
+				height: 100%;
+			}
+			.w{
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				position: relative;
+				
+				
+				
+			}
+			.w>.aBg{
+				position: absolute;
+				left: 0px;
+			    width: 100%;
+				height: 100%;
+				transition: .8s;
+				
+					
+			}
+			.w>.aBg>li{
+				width: 100%;
+				list-style: none;
+				height: 100%;
+				background-size: cover;
+				z-index: -5;
+				
+				
+			}
+			.w>.aBg>li:nth-child(1){
+				background-image: url(../img/bg4.jpg);
+				
+			}
+			.w>.aBg>li:nth-child(2){
+				background-image: url(../img/dbe70110b912c8fc84eb5067fd039245d78821e8.jpg);
+			}
+			.w>.aBg>li:nth-child(3){
+				background-image: url(../img/demo-1-bg.jpg);
+			}
+			.w>.aBg>li:nth-child(4){
+				background-image: url(../img/m4jl-fxmifze7633331.png);
+			}
+			.w>.aBg>li:nth-child(5){
+				background-image:url(../img/bg5.jpg);
+			}
+			.w>.aBg>li>ul{
+				width: 7%;
+				height: 14%;
+			   position: absolute;
+			    top: 8%;
+			    left: 20%;
+			    list-style: none;
+			    font-size: 20px;
+			    color:rgb(150,134,166);
+			    font-weight: bold;
+			    font-family:"楷体";
+			}
+			.w>.aBg>li>.myname{
+				
+				width:50%;
+				height: 50%;
+				position: absolute;
+				top: 29%;
+				left: 28%;
+			}
+			
+			
+			.w>.aBg>li>.myname>.logo1{
+				width: 150px;
+				height: 150px;
+				border-radius:50%;
+				background-image: url(../img/logo.jpg);
+				background-size: cover;
+			}
+			.w>.aBg>li>.myname>.slogan{
+				margin-top: 10px;
+				width: 600px;
+			    height: 50px;
+			    background-color: rgba(255, 255, 255, 0.1);
+			    border: 1px solid rgba(255, 255, 255, 0.8);
+			    text-shadow: 0px 0px 12px #ffffff;
+			    box-shadow: 0px 0px 12px #ffffff;
+			    border-radius: 30px;
+			    display: flex;
+			    justify-content: center;
+			    align-items: center;
+			    transition: all 0.5s;
+			}
+			.w>.aBg>li>.myname>.slogan:hover{
+				 background-color: rgba(255, 255, 255, 0.4);
+				    box-shadow: 0px 0px 25px #ffffff;
+				    transition: all 0.5s;
+			}
+			.w>.aBg>li>.myname>.slogan>.slogan2{
+				    text-align: center;
+				    color: rgba(255, 255, 255, 1);
+				    font-size: 16px;
+				    max-width: 500px;
+			}
+			.w>.aBg>li>.myname>.buttons{
+				 	margin-top: 100px;
+				    margin-right: auto;
+				    margin-left: auto;
+				    width: 80%;
+				    height: 15%;
+				    display: flex;
+				    justify-content: center;
+				    align-items: center;
+			}
+			
+			.w>.aBg>li>.myname>.buttons>.button1{
+				 margin-left: 10px;
+			    margin-right: 10px;
+			    height: 50px;
+			    width: 200px;
+			    border: 1px solid rgba(255, 255, 255, 0.4);
+			    border-radius: 25px;
+			    background-color: rgba(255, 255, 255, 0.1);
+			    color: white;
+			    font-size: 16px;
+			    transition: all 0.5s;
+			}
+			.w>.aBg>li>.myname>.buttons>.button1:hover{
+				background-color: rgba(255, 255, 255, 0.4);
+				    box-shadow: 0px 0px 25px #ffffff;
+				    transition: all 0.5s;
+			}
+			 
+			
+			.w>.aBg>li>ul>li{
+				margin-top: 5%;
+			}
+			.w>.aBg>li>ul>li:hover{
+				cursor:pointer;
+			}
+			.w>.aBg>li>.xxjs{
+			    width: 60%;
+			    height: 60%;
+			  z-index: -15;
+			    
+			   
+			}
+				.swiper-slide img{
+		width:100%;
+	}
+	.swiper-pagination{
+		margin-top: 3%;
+		position:relative;
+		;
+		width:100%;}
+	.swiper-pagination-bullet{
+		width:25%;
+		height:auto;
+		background:none;}
+	.swiper-pagination-bullet img{
+		width:100%;}	
+		
+			.w>.aBg>li>.jxJs{
+				border: 1px solid transparent;
+				width: 60%;
+				height: 60%;
+			  
+				
+			}
+			.w>.aBg>li>.jxJs>ul{
+				list-style: none;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				margin-top: 15%;
+			}
+			.w>.aBg>li>.jxJs>ul>li{
+				width:20%;
+			    height: 100%;
+			    float: left;
+			    transition: all 1s;
+			    position: relative;
+			  }
+			  .w>.aBg>li>.jxJs>ul>li>.name{
+			  	width: 100%;
+			  	height: 10%;
+			  	background-color: #000000;
+			  	opacity:0.5;
+			  	position: absolute;
+			  	bottom: 0%;
+			  	text-align: center;
+			  	color: white;
+			  	
+			   }
+			   .w>.aBg>li>.jxJs>ul:hover li{
+			   	   width: 5%;
+			   }
+			    .w>.aBg>li>.jxJs>ul>li:hover{
+			    	width: 80%;
+			    }
+				.w>.aBg>li>.xqJs{
+					border: 1px solid transparent;
+					width: 60%;
+					height: 60%;
+					list-style: none;
+				 }
+				 .w>.aBg>li>.xqJs>ul{
+				 	
+				 	width: 100%;
+					height: 100%;
+					margin-top: 15%;
+					list-style: none;
+					/*overflow: hidden;*/
+				}
+				.w>.aBg>li>.xqJs>ul>li{
+					
+				 	width: 25%;
+					height: 80%;
+				    float: left;
+				    margin: 4%;
+				    margin-top: 5%;
+				    transition: all 1s;
+				     color: white;
+				}
+				.w>.aBg>li>.xqJs>ul>li>span{
+					width: 100%;
+					height: 100%;
+					
+					
+				}
+				.w>.aBg>li>.xqJs>ul>li>span>img{
+					width: 100%;
+					height: 100%;
+				}
+				.w>.aBg>li>.xqJs>ul>li>h4{
+					background-color: black;
+					width: 100%;
+					height: 8%;
+					position:relative;
+					bottom: 51%;
+					opacity:0.5;
+			         transition: all 1s;
+			        display: none;
+			        text-align: center;
+			        color: white;
+			        font-size: 18px;
+			        font-family: "幼圆";
+				}
+				.w>.aBg>li>.xqJs>ul>li:hover h4{
+					height: 50%;
+					display: block;
+				}
+				.w>.aBg>li>.jianli{
+					position:relative;
+					top: -17%;
+					left: 1%;
+					display: none;
+					
+				}
+				.w>.aBg>li>.xsJL{
+					border: 1px solid white;
+					position:relative;
+					top: 30%;
+					right: -35%;
+					width: 100px;
+					height: 100px;
+					text-align: center;
+					color: white;
+					border-radius: 50%;
+					background-image: url(../img/7.jpg);
+					background-size: cover;
+				}
+				.w>.aBg>li>p{
+					color: rgba(74,48,117);
+					position:relative;
+					top: 15%;
+					right: -81%;
+					font-weight: bold;
+					font-family: "楷体";
+					font-size: 20px;
+				}
+				
+				.w>.aBg>li>.xsJL:hover{
+					background-color: rgba(255, 255, 255, 0.4);
+				    box-shadow: 0px 0px 25px #ffffff;
+				    transition: all 0.5s;
+				}
+				
+				
+			
+			.w>.btn{
+				position: absolute;
+				top: 35%;
+				left: 12%;
+				transform: translate(-50%,0px);
+				width: 5%;
+				height: 45%;
+					
+				
+			}
+			.w>.btn>li{
+				width: 50%;
+				height: 18%;
+				list-style: none;
+				margin-top: 23%;
+				border-radius:50%;
+				background-image: url(../img/nav_df.png);
+				background-size: cover;
+				z-index: 30;
+		        
+			}
+			.w>.bianDao{
+				width: 4%;
+				height: 8%;
+				position: absolute;
+				left:4%;
+				top: 37%;
+			}
+			h3{
+				position: absolute;
+				left:-55%;
+				top: 37%;
+				color: rgb(150,134,166);
+				font-family: "楷体";
+				font-weight: bold;
+			}	
+			
+				
+				
+			
+			.w>.bianDao1{
+				width: 4%;
+				height: 5%;
+				position: absolute;
+				left:4%;
+				top: 47%;
+				
+				
+			}
+			.w>.bianDao2{
+				width:   4%;
+				height:  7%;
+				position: absolute;
+				left:4%;
+				top: 55.5%;
+				
+			}
+			.w>.bianDao3{
+				width:  4%;
+				height:   7%;
+				position: absolute;
+				left:4%;
+				top: 65%;
+				
+			}
+			.w>.bianDao4{
+				width:  4%;
+				height:   7%;
+				position: absolute;
+				left:4%;
+				top: 76.5%;
+				
+			}
+			
+			
+			
+			
+			
+			
+			.w>.btn>li:hover{
+				cursor:pointer;
+			}
+			.w>.contact{
+				width:3%;
+				height: 18%;
+				
+				position: absolute;
+		        right: 5%;
+		        bottom: 10%;
+		        list-style: none;
+			}
+			.w>.contact>li{
+				width: 2em;
+				height: 2em;
+				
+				margin-top: 0.6em;
+			}
+			.w>.contact>li>a{
+			  display: inline-block;
+			  width: 2em;
+			  height:2em;
+			 
+			}
+			.w>.contact>li>a>img{
+				width: 100%;
+				height: 100%;
+				}
+			.w>.contact>div>img{
+				position: absolute;
+				right: 100%;
+				top: 0%;
+				display:none;
+			}
+			.w>.contact>li>a>img:nth-child(1):hover{
+				/*display: block;*/
+				width: 120%;
+				height: 120%;	
+				
+			}
+			.w>.contact>li>.wx_btn:hover{
+				width: 130%;
+				height: 130%;	
+				cursor:pointer;
+			}
